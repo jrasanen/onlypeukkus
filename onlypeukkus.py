@@ -80,7 +80,7 @@ def main():
     <style>body, code { font-family: Tahoma, Verdana; }</style>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="icon" type="image/png" href="peukkus/must-be-capitalism.png" />
+    <link rel="icon" type="image/png" href="op-logo.png" />
     <meta charset="UTF-8">
 </head>
 <body>
