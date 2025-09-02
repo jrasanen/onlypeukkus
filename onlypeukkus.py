@@ -74,23 +74,23 @@ def main():
     similar_emojis.sort(key=lambda x: x[1], reverse=True)
 
     html_content = """<!DOCTYPE html>
-<html>
+<html lang=fi>
 <head>
     <title>Only Peukkus. Nothing else.</title>
     <style>body, code { font-family: Tahoma, Verdana; }</style>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="icon" type="image/png" href="op-logo.png" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="op-logo.png">
     <meta charset="UTF-8">
 </head>
 <body>
-    <img height=44 src=op-logo.png>
+    <img height=44 src=op-logo.png alt="Only Peukkus">
     <p>listing only thumb up emojis. <a href=https://github.com/jrasanen/onlypeukkus>repo</a>.</p>
     <ul>
 """
 
     for shortcode, similarity in similar_emojis:
-        html_content += f"        <li><img height=44 width=44 src=peukkus/{shortcode}.png><code>:{shortcode}:</code></li>\n"
+        html_content += f"        <li><img alt={shortcode} height=44 width=44 src=peukkus/{shortcode}.png><code>:{shortcode}:</code></li>\n"
 
     html_content += """    </ul>
 </body>
