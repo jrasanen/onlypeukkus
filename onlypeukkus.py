@@ -84,6 +84,7 @@ def main():
     <meta charset="UTF-8">
 </head>
 <body>
+    <img height=44 src=op-logo.png>
     <p>listing only thumb up emojis. <a href=https://github.com/jrasanen/onlypeukkus>repo</a>.</p>
     <ul>
 """
