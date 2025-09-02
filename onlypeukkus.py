@@ -80,7 +80,7 @@ def main():
     <style>body, code { font-family: Tahoma, Verdana; }</style>
 </head>
 <body>
-    <p>listing only thumb up emojis</p>
+    <p>listing only thumb up emojis. <a href=https://github.com/jrasanen/onlypeukkus>repo</a>.</p>
     <ul>
 """
 
